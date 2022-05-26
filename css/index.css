@@ -1,4 +1,3 @@
-
 @import url("/projectKFIA/css/common.css");
 
 main {}
@@ -21,9 +20,11 @@ main {}
     margin-right: 150px;
 }
 
-.main_img>div>div{
+.main_img>div>div {
     width: 1400px;
-    height: 100%;}
+    height: 100%;
+}
+
 .main_img>div>h1 {
     font-size: 40px;
     font-family: 'Noto Sans KR', sans-serif;
@@ -160,15 +161,12 @@ main {}
     transition: .5s;
 }
 
-.HotClip>div:nth-of-type(2)>a>iframe {
-   
-
-}
+.HotClip>div:nth-of-type(2)>a>iframe {}
 
 .HotClip>div:nth-of-type(2)>a>figcaption {
     color: #000;
 }
 
-.HotClip>div:nth-of-type(2){
+.HotClip>div:nth-of-type(2) {
     margin-bottom: 260px;
 }
