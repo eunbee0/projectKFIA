@@ -161,10 +161,12 @@ main {}
     transition: .5s;
 }
 
-.HotClip>div:nth-of-type(2)>a>iframe {}
+.HotClip>div:nth-of-type(2)>a>iframe {
+}
 
-.HotClip>div:nth-of-type(2)>a>figcaption {
+.HotClip>div:nth-of-type(2)>a>p {
     color: #000;
+    margin-bottom: 40px;
 }
 
 .HotClip>div:nth-of-type(2) {
