@@ -51,15 +51,15 @@ header:hover {
 }
 
 header:hover>div>a {
-    content: url(projectKFIA/img/logo1_black.png);
+    content: url(img/logo1_black.png);
 }
 
 header:hover>div>div>a:nth-of-type(1) {
-    content: url(projectKFIA/img/SNS_insta_balck.png);
+    content: url(img/SNS_insta_balck.png);
 }
 
 header:hover>div>div>a:nth-of-type(2) {
-    content: url(projectKFIA/img/SNS_youtube_black.png);
+    content: url(img/SNS_youtube_black.png);
 }
 
 header:hover>div>nav>ul>li>a {
