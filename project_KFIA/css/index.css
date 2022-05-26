@@ -1,0 +1,172 @@
+@import url("/project_KFIA/css/common.css");
+
+main {}
+
+.main_img {
+    width: 100%
+}
+
+.main_img>img {
+    width: 100%;
+}
+
+.main_img>div {
+    position: relative;
+    right: 100px;
+    bottom: 250px;
+    float: right;
+    color: #fff;
+    text-align: right;
+    margin-right: 150px;
+}
+
+.main_img>div>div{
+    width: 1400px;
+    height: 100%;}
+.main_img>div>h1 {
+    font-size: 40px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.main_img>div>p {
+    margin-top: 38px;
+    margin-bottom: 30px;
+}
+
+.main_img>div>a {
+    color: #fff;
+    font-size: 11px;
+    border-bottom: 1px solid #fff;
+}
+
+.news {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.news>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.news>div>h1 {
+    color: #800000;
+    font-size: 48px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+}
+
+.news>div>a {
+    color: black;
+    font-size: 12px;
+    border-bottom: 1px solid #000;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 700;
+}
+
+.news>figure {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.news>figure>a {
+    position: relative;
+
+}
+
+.news>figure>a>img {
+    width: 430px;
+    height: 340px;
+    margin: 0 20px 65px 0;
+}
+
+.news>figure>a>figcaption {
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+.news>figure>a>figcaption>b {
+    font-size: 20px;
+}
+
+
+.news>figure>a>figcaption>p {
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.news>figure>a:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+
+.HotClip {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.HotClip>div:nth-of-type(1) {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 170px;
+    margin-bottom: 100px;
+}
+
+.HotClip>div:nth-of-type(1)>h1 {
+    color: #800000;
+    font-size: 48px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+}
+
+.HotClip>div:nth-of-type(1)>a {
+    color: #000;
+    font-size: 12px;
+    border-bottom: 1px solid #000;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 700;
+}
+
+.HotClip>div:nth-of-type(2) {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    position: relative
+}
+
+.HotClip>div:nth-of-type(2)>a:hover {
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.HotClip>div:nth-of-type(2)>a>iframe {
+
+}
+
+.HotClip>div:nth-of-type(2)>a>figcaption {
+    color: #000;
+}
+
+.HotClip>div:nth-of-type(2){
+    margin-bottom: 260px;
+}

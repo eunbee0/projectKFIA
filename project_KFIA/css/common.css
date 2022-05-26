@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&family=Noto+Sans+KR:wght@100;300;400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    margin: 0;
+    width: 100%;
+}
+
+ul,
+li,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+header {
+    position: fixed;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.466);
+    padding: 15px 0;
+    z-index: 999999;
+    transition: 0.5s;
+    font-family: 'Noto Sans KR', sans-serif
+}
+
+header:hover {
+    background-color: rgba(255, 255, 255, 0.644);
+    width: 100%;
+    height: 220px;
+    transition: 1s;
+}
+
+header:hover>div>a {
+    content: url(/project_KFIA/img/logo\ 1_black.png);
+}
+
+header:hover>div>div>a:nth-of-type(1) {
+    content: url(/project_KFIA/img/SNS_insta_balck.png);
+}
+
+header:hover>div>div>a:nth-of-type(2) {
+    content: url(/project_KFIA/img/SNS_youtube_black.png);
+}
+
+header:hover>div>nav>ul>li>a {
+    color: #000000;
+}
+
+header>div>nav>ul>li>a:hover {
+    color: #ffffff;
+}
+
+header>div {
+    width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header>div>a {
+    margin-top: 20px;
+}
+
+header>div>nav {
+    margin-right: auto;
+    margin-left: 100px;
+}
+
+header>div>nav>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header>div>nav>ul>li {
+    height: 100%;
+    font-size: 24px;
+    position: relative;
+}
+
+header>div>nav>ul>li>a {
+    color: #fff;
+    margin: 45px 76px 38px 0;
+    font-weight: 700;
+}
+
+header>div>nav>ul>li>div {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-100%, 50%);
+    width: 70px;
+    height: 40px;
+    display: none;
+    text-align: center;
+}
+
+header:hover>div>nav>ul>li>div {
+    display: block;
+}
+
+
+
+
+header>div>nav>ul>li>div>a {
+    color: #fff;
+    font-size: 15px;
+    transition: .5s;
+    font-weight: 700;
+}
+
+header:hover>div>nav>ul>li>div>a {
+    color: black;
+}
+
+header>div>nav>ul>li>div>a:hover {
+    color: #ffffff;
+}
+
+header>div>div>a {
+    color: #fff;
+    margin-right: 10px;
+}
+
+
+/* footer */
+footer {
+    background-color: #000000;
+    padding: 30px;
+    color: #fff;
+    font-size: 11px;
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+footer>div{
+    width: 1400px;
+    height: 160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer>div>div>span{
+    display: block;
+}
+footer>div>nav{
+    height: 100%;
+    
+}
+
+footer>nav>ul {}
+
+footer>div>nav>ul>li {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+}
+
+
+footer>div>nav>ul>li>a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+footer>div>nav>ul>li>div {
+    width: 200px;
+    height: 100px;
+}
+
+
+footer>div>nav>ul>li>div>a {
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+}
+
+footer>div>div:nth-of-type(2)>a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
