@@ -89,7 +89,7 @@ main {}
     margin: 0 20px 65px 0;
 }
 
-.news>figure>a>figcaption {
+.news>figure>a>div {
     width: 400px;
     position: absolute;
     left: 50%;
@@ -101,12 +101,12 @@ main {}
 
 
 
-.news>figure>a>figcaption>b {
+.news>figure>a>div>b {
     font-size: 20px;
 }
 
 
-.news>figure>a>figcaption>p {
+.news>figure>a>div>p {
     margin-top: 20px;
     font-size: 12px;
 }
