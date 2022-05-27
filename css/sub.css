@@ -1,0 +1,126 @@
+@import url("common.css");
+@import url("nav.css");
+
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+main {}
+
+main>div>div>h2 {
+    color: #800000;
+    font-size: 90px;
+}
+
+main>div>img {
+    width: 100%;
+
+}
+
+.info {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.info>h2 {
+    margin-top: 210px;
+    margin-bottom: 35px;
+}
+
+.info>p {
+    margin-bottom: 110px;
+    font-size: 32px;
+    color:
+        #7b7b7b;
+}
+
+.Companyoutline {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.Companyoutline>h2 {
+    margin-top: 200px;
+    margin-bottom: 80px;
+}
+
+.Companyoutline>h3 {
+    font-size: 64px;
+    margin-bottom: 75px;
+}
+
+
+.Companyoutline>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Companyoutline>div>div {
+    margin-left: 20px;
+}
+
+.Companyoutline>div>div>h2 {
+    color: #800000;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.Companyoutline>div>div>p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #717171;
+}
+
+.Companyoutline>div>div>b {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Companyoutline>p {
+    margin-top: 70px;
+    margin-bottom: 290px;
+    text-align: right;
+    font-size: 20px;
+}
+
+.outline {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.outline>h2 {
+    margin-bottom: 30px;
+}
+
+.outline>p {
+    font-size: 36px;
+    color: #363636;
+    margin-bottom: 70px;
+}
+
+.outline>table {
+    font-size: 32px;
+    border-top: 7px solid #800000;
+    margin-bottom: 200px;
+}
+
+
+.outline>table>tbody>tr>th {
+    width: 300px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    padding: 40px 74px;
+}
+.outline>table>tbody>tr>td{
+    border-bottom:1px solid #000 ;
+    margin-left: 50px;
+}
+
+.outline>table>tbody>tr>td>p>b{
+    color: #800000;
+}
