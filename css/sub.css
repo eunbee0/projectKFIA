@@ -13,7 +13,7 @@ main {}
 
 main>div>div>h2 {
     color: #800000;
-    font-size: 90px;
+    font-size: 60px;
 }
 
 main>div>img {
@@ -28,12 +28,12 @@ main>div>img {
 
 .info>h2 {
     margin-top: 210px;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
 }
 
 .info>p {
     margin-bottom: 110px;
-    font-size: 32px;
+    font-size: 30px;
     color:
         #7b7b7b;
 }
@@ -49,7 +49,7 @@ main>div>img {
 }
 
 .Companyoutline>h3 {
-    font-size: 64px;
+    font-size: 40px;
     margin-bottom: 75px;
 }
 
@@ -66,12 +66,12 @@ main>div>img {
 
 .Companyoutline>div>div>h2 {
     color: #800000;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
 .Companyoutline>div>div>p {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 20px;
     color: #717171;
 }
@@ -85,7 +85,7 @@ main>div>img {
     margin-top: 70px;
     margin-bottom: 290px;
     text-align: right;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .outline {
@@ -98,27 +98,25 @@ main>div>img {
 }
 
 .outline>p {
-    font-size: 36px;
+    font-size: 30px;
     color: #363636;
     margin-bottom: 70px;
 }
 
 .outline>table {
-    font-size: 32px;
+    font-size: 20px;
     border-top: 7px solid #800000;
     margin-bottom: 200px;
 }
 
 
 .outline>table>tbody>tr>th {
-    width: 300px;
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
     padding: 40px 74px;
 }
 .outline>table>tbody>tr>td{
-    border-bottom:1px solid #000 ;
-    margin-left: 50px;
+    border-bottom:2px solid #000 ;
 }
 
 .outline>table>tbody>tr>td>p>b{
