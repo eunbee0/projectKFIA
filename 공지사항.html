@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Document</title>
     <link href="css/sub2.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div>
@@ -68,60 +70,134 @@
                     </li>
                 </ul>
             </nav>
-            <div>
+            <div class="Notice">
                 <h2>공지사항</h2>
+                <div>
+                    <h3>전체</h3>
+                    <div class="Search">
+                        <input type="text" placeholder="검색">
+                    </div>
+                </div>
+                <table class="board">
+                    <tr>
+                        <th>번호</th>
+                        <th>제목</th>
+                        <th>작성자</th>
+                        <th>조회수</th>
+                    </tr>
+                    <tr>
+                        <td id="not">공지</td>
+                        <td id="bt">[모집] (재직자 대상) One-Point 패턴 특강/컨설팅 지원사업 및 신청 안내 </td>
+                        <td id="bt">한국패션산업협회</td>
+                        <td id="bt">104</td>
+                    </tr>
+                    <tr>
+                        <td id="not">공지</td>
+                        <td id="bt">[공고] 제15회 코리아패션대상 포상 요령 공고(~5.24신청 마감)</td>
+                        <td id="bt">한국패션산업협회</td>
+                        <td id="bt">158</td>
+                    </tr>
+                    <tr>
+                        <td id="not">공지</td>
+                        <td id="bt">[공고] 2022 유망 패션브랜드 글로벌화 지원 모집 (~5.12접수 마감)</td>
+                        <td id="bt">한국패션산업협회</td>
+                        <td id="bt">1652</td>
+                    </tr>
+                    <tr>
+                        <td id="not">공지</td>
+                        <td id="bt">[안내] 2022 한국패션산업협회 회원가입 안내</td>
+                        <td id="bt">한국패션산업협회</td>
+                        <td id="bt">758</td>
+                    </tr>
+                    <tr>
+                        <td id="not">공지</td>
+                        <td id="bt">[안내] 한국패션산업협회 사무실 이전 안내</td>
+                        <td id="bt">한국패션산업협회</td>
+                        <td id="bt">949</td>
+                    </tr>
+                    <tr>
+                        <td id="bt">3287</td>
+                        <td id="bt">[모집] 2022 서북권패션지원센터 패턴, CAD/CAM, 3D CLO 교육 상반기 신청 모집 공고</td>
+                        <td id="bt">한국패션산업협회</td>
+                        <td id="bt">70</td>
+                    </tr>
+                    <tr>
+                        <td id="bt">3286</td>
+                        <td id="bt">[회원서비스](이슈컨퍼런스) D2C의 마케팅 전략 및 전술 컨퍼런스 개최(제3회)</td>
+                        <td id="bt">한국패션산업협회</td>
+                        <td id="bt">51</td>
+                    </tr>
+                    <tr>
+                        <td id="bt">3285</td>
+                        <td id="bt">[안내] 브랜드를 위한 오프라인 비즈니스 공간 "르돔 쇼룸 대관 가이드"</td>
+                        <td id="bt">한국패션산업협회</td>
+                        <td id="bt">98</td>
+                    </tr>
+                    <tr>
+                        <td id="bt">3284</td>
+                        <td id="bt">[회원서비스](이슈컨퍼런스) 브랜드 D2C E-commerce 플랫폼 구축 전략 컨퍼런스 개최(제2회)</td>
+                        <td id="bt">한국패션산업협회</td>
+                        <td id="bt">263</td>
+                    </tr>
+                <tfoot>
+                    <tr>
+                        <td colspan="6" id="page">1 2 3 4 5 6</td>
+                    </tr>
+                </tfoot>
+                </table>
             </div>
         </div>
     </main>
-</main>
-<footer>
-    <div>
+    </main>
+    <footer>
         <div>
-            <a href="#"><img src="img/logo1.png" alt="logo"></a>
-            <span>대표자 한준석</span><span>사업자등록번호 120-82-01240</span>
-            <p>
-                이메일 kfa@koreafashion.org 팩스 02-528-0100<br>
-                업무전화 [02-528-****] 지원팀 [0117] 사업1부 [0108/0109] 사업2부 [0115/0116]<br>
-                서울특별시 강남구 테헤란로 518(대치동) 섬유센터빌딩 16층 한국패션산업협회
-            </p>
-            <p>
-                COPYRIGHT 2022 KOREA FASHION INDUSTRY ASSOCIATION(c) ALL RIGHTS RESERVED.
-            </p>
+            <div>
+                <a href="#"><img src="img/logo1.png" alt="logo"></a>
+                <span>대표자 한준석</span><span>사업자등록번호 120-82-01240</span>
+                <p>
+                    이메일 kfa@koreafashion.org 팩스 02-528-0100<br>
+                    업무전화 [02-528-****] 지원팀 [0117] 사업1부 [0108/0109] 사업2부 [0115/0116]<br>
+                    서울특별시 강남구 테헤란로 518(대치동) 섬유센터빌딩 16층 한국패션산업협회
+                </p>
+                <p>
+                    COPYRIGHT 2022 KOREA FASHION INDUSTRY ASSOCIATION(c) ALL RIGHTS RESERVED.
+                </p>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">소개</a>
+                        <div>
+                            <a href="협회소개.html">협회소개</a>
+                            <a href="사업소개.html">사업소개</a>
+                            <a href="연혁소개.html">연혁소개</a>
+                            <a href="오시는길.html">오시는 길</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">뉴스</a>
+                        <div>
+                            <a href="공지사항.html">공지사항</a>
+                            <a href="#">보도자료</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">회원사</a>
+                        <div>
+                            <a href="#">가입가이드</a>
+                            <a href="#">MEMBERS</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <a href="#">
+                    <p>TOP</p>
+                    <img src="img/top_icon.png" alt="top">
+                </a>
+            </div>
         </div>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">소개</a>
-                    <div>
-                        <a href="협회소개.html">협회소개</a>
-                        <a href="사업소개.html">사업소개</a>
-                        <a href="연혁소개.html">연혁소개</a>
-                        <a href="오시는길.html">오시는 길</a>
-                    </div>
-                </li>
-                <li>
-                    <a href="#">뉴스</a>
-                    <div>
-                        <a href="공지사항.html">공지사항</a>
-                        <a href="#">보도자료</a>
-                    </div>
-                </li>
-                <li>
-                    <a href="#">회원사</a>
-                    <div>
-                        <a href="#">가입가이드</a>
-                        <a href="#">MEMBERS</a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
-        <div>
-            <a href="#">
-                <p>TOP</p>
-                <img src="img/top_icon.png" alt="top">
-            </a>
-        </div>
-    </div>
-</footer>
+    </footer>
 </body>
+
 </html>
