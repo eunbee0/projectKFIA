@@ -298,10 +298,22 @@ body{font-family: 'Noto Sans KR', sans-serif;
 
 /* sub3 */
 
+
 .history{
     width: 1350px;
     margin: 0 auto;
 }
+
+#today>a{
+    color: #800000;
+    border-bottom:3px solid #800000;
+}
+
+#hs>a{
+color:#6D6D6D ;
+border-bottom:3px solid #6D6D6D;
+}
+
 .history>h2{
     font-size: 60px;
     color: #800000;
@@ -343,6 +355,8 @@ body{font-family: 'Noto Sans KR', sans-serif;
     font-size: 20px;
     margin-bottom: 200px;
 }
+
+
 
 
 /* sub4 */
