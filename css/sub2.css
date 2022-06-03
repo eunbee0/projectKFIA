@@ -121,6 +121,14 @@ input {
 
 }
 
+#NS{
+    color: #C5C0C0;
+}
+
+#HC{
+    color: #800000;
+}
+
 #head {
     border-bottom: 3px solid #800000;
 }
@@ -205,3 +213,4 @@ input {
 .press_release>span>div{
     margin-bottom: 110px;
 }
+
