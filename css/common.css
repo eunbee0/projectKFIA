@@ -48,6 +48,7 @@ header {
 
 }
 
+
 header:hover {
     background-color: rgba(255, 255, 255, 0.644);
     width: 100%;
@@ -76,8 +77,11 @@ header>div {
 header>div>a {
     margin-top: 20px;
 }
+header>div>a>img{
 
-header>div>nav {
+}
+
+header div>nav {
     margin-right: auto;
     margin-left: 100px;
 }
