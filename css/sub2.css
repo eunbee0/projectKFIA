@@ -34,7 +34,7 @@ body {
 
 .search {
     width: 1400px;
-    margin: 0%;
+    
     position: relative;
 }
 
@@ -102,6 +102,7 @@ input {
     display: flex;
     margin-bottom: 70px;
     font-size: 18px;
+    
 }
 
 
@@ -116,7 +117,6 @@ input {
 
 .search2>input {
     width: 300px;
-    margin-left: 700px;
     margin-bottom: 15px;
 
 }
@@ -131,6 +131,7 @@ input {
 
 #head {
     border-bottom: 3px solid #800000;
+    
 }
 
 .news {
@@ -357,3 +358,20 @@ input {
 
 /* 가입가이드 */
 
+a#MOVE_TOP_BTN {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    color: #800000;
+    position: fixed;
+    right: 2%;
+    bottom: 400px;
+    display: none;
+    z-index: 999;
+    border: 3px solid #800000;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+}

@@ -114,9 +114,11 @@ main>div>img {
     border-right: 2px solid #000;
     border-bottom: 2px solid #000;
     padding: 40px 74px;
+    
 }
 .outline>table>tbody>tr>td{
     border-bottom:2px solid #000 ;
+    padding: 20px 50px;
 }
 
 .outline>table>tbody>tr>td>p>b{
@@ -388,4 +390,22 @@ border-bottom:3px solid #6D6D6D;
 .waytocome>div>p{
     font-size: 20px;
     margin-bottom: 90px;
+}
+
+a#MOVE_TOP_BTN {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+    color: #800000;
+    position: fixed;
+    right: 2%;
+    bottom: 400px;
+    display: none;
+    z-index: 999;
+    border: 3px solid #800000;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
 }
