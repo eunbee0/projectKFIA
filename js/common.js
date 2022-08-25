@@ -4,7 +4,11 @@ $('footer').load('inc.html footer > div');
 
 $(function () {
    $('.slide').slick();
+    autoplay: true,
+    autoplaySpeed: 2000,
 });
+
+
 
 $(function () {
    $(window).scroll(function () {
